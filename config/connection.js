@@ -1,6 +1,6 @@
-require('dotenv').config();
+require('dotenv').config(); //dotenv for using password
 
-const Sequelize = require('sequelize');
+const Sequelize = require('sequelize'); //Importing sequelize
 
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
@@ -12,4 +12,4 @@ const sequelize = process.env.JAWSDB_URL
       },
     });
 
-module.exports = sequelize;
+module.exports = sequelize; //Exporting sequelize

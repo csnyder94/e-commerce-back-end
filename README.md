@@ -35,7 +35,6 @@ node seeds
 npm start
 ```
 You will also need Insomnia to make HTTP requests.           
-For a video walkthrough using the application, go to the following link: https://drive.google.com/file/d/1bZZrBZUfgJsAqRWNyDv7a-Vc09TAZgeJ/view
 
 ## Support
 
